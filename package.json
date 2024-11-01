@@ -6,13 +6,15 @@
   "dependencies": {
     "@actions/core": "^1.2.4",
     "@actions/github": "^3.0.0",
-    "express": "^4.21.1",
-    "jest": "^26.0.1"
+    "express": "^4.21.1"
   },
   "scripts": {
-    "test": "jest",
+    "test": "node server.test.js",
     "start": "node ."
   },
   "author": "jrw@mit.edu",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "supertest": "^7.0.0"
+  }
 }
